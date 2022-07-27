@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_l">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_l"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <EditText
+            android:id="@+id/first_divider_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/first_divider_description"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="9"
+            android:padding="@dimen/spacing_m" />
+
+        <EditText
+            android:id="@+id/second_divider_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_s"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/second_divider_description"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="9"
+            android:padding="@dimen/spacing_m" />
+
+        <EditText
+            android:id="@+id/first_multiple_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_s"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/first_multiple_text_description"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="@dimen/spacing_m" />
+
+        <EditText
+            android:id="@+id/second_multiple_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_s"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/second_multiple_text_description"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="@dimen/spacing_m" />
+
+        <EditText
+            android:id="@+id/limit_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_s"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/limit_description"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="9"
+            android:padding="@dimen/spacing_m" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/validation_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_l"
+            android:backgroundTint="@color/black"
+            android:text="@string/validation_text" />
+    </LinearLayout>
+</ScrollView>

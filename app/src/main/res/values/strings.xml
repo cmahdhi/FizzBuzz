@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FizzBuzz</string>
+    <string name="first_divider_description">First divider to replace</string>
+    <string name="second_divider_description">Second divider to replace</string>
+    <string name="first_multiple_text_description">First multiple replacement text</string>
+    <string name="second_multiple_text_description">Second multiple replacement text</string>
+    <string name="limit_description">Calculation limit</string>
+    <string name="validation_text">Calculate</string>
+    <string name="form_error_message">Please check your input.</string>
+</resources>
